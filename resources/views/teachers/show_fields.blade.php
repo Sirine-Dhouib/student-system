@@ -1,0 +1,44 @@
+<!-- First Name Field -->
+<div class="col-sm-12">
+    {!! Form::label('first_name', 'First Name:') !!}
+    <p>{{ $teachers->first_name }}</p>
+</div>
+
+<!-- Last Name Field -->
+<div class="col-sm-12">
+    {!! Form::label('last_name', 'Last Name:') !!}
+    <p>{{ $teachers->last_name }}</p>
+</div>
+
+<!-- Gender Field -->
+<div class="col-sm-12">
+    {!! Form::label('gender', 'Gender:') !!}
+    <p>{{ $teachers->gender }}</p>
+</div>
+
+<!-- Email Field -->
+<div class="col-sm-12">
+    {!! Form::label('email', 'Email:') !!}
+    <p>{{ $teachers->email }}</p>
+</div>
+
+
+<!-- Phone Field -->
+<div class="col-sm-12">
+    {!! Form::label('phone', 'Phone:') !!}
+    <p>{{ $teachers->phone }}</p>
+</div>
+
+
+<!-- Date Enregistered Field -->
+<div class="col-sm-12">
+    {!! Form::label('date_enregistered', 'Date Enregistered:') !!}
+    <p>{{ $teachers->date_enregistered }}</p>
+</div>
+
+<!-- User Id Field -->
+<div class="col-sm-12">
+    {!! Form::label('user_id', 'User Id:') !!}
+    <p>{{ $teachers->user_id }}</p>
+</div>
+
